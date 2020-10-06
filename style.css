@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+}
+
+body {
+    background-image: url("./coffee.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 9% 11% 0 0;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin: 5% 20.1% 0 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0 25.4% 0 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 1.5% 16%;
+}
+
+a {
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    margin: 5% 25.4% 0 0;
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+
